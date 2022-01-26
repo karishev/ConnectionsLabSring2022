@@ -1,4 +1,4 @@
-#Shared Piano reflection
+# Shared Piano reflection
 
 I picked the web application called ‘Shared Piano’. I was impressed just by the simple fact that the piano works just alone on a website, but then the professor showed us that it is possible to have multiple people play the piano together. My first idea was the meme song called ‘Rush E’, which is basically impossible to play alone, only a simplified version. You can actually see people trying to play the song on YouTube to understand the context. In my opinion, using an interactive piano for this challenge is an interesting approach.
 
