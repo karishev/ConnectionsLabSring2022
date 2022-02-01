@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arduino Tiles</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <span id="icons" class="iconify" data-icon="cib:arduino"></span>
+      <h1>Arduino Tiles</h1>
+      <span id="icons" class="iconify" data-icon="gg:piano"></span>
+    </header>
+    <!-- <nav class="nav">
+        <ul class="nav_list">
+            <li class="nav_list-item">Games</li>
+            <li class="nav_list-item">News</li>
+            <li class="nav_list-item">Kittens</li>
+        </ul>
+    </nav> -->
+
+    <section>
+      <div class="projectdescription">
+        <iframe
+          width="480"
+          height="280"
+          src="https://www.youtube.com/embed/YBJGUBKkHfE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <p class="textaboutproject">
+          This project is recreation of the popular mobile game called Piano
+          Tiles. It was made in Processing and uses Arduino controls to play
+          the game. The main logic of this game is to press the corresponding
+          button to the row of the tile that is traversing from up to down on
+          the screen. By pressing on the tiles, you produce the music on the
+          arduino using the buzzer. There is also a choice of 4 songs that could
+          be played in this game. On the LCD screen you can see the name of the
+          song you are playing right now and the score you have. You can see the
+          documentation of this project
+          <a
+            href="https://github.com/karishev/introtoim/tree/main/final_project"
+            >here</a
+          >. 
+        </p>
+        <!-- <img alt="good looking cat" src="https://placekitten.com/200/300" /> -->
+      </div>
+      <div class="images">
+        <div class="imgdesc">
+          <img src="arduinioimg.jpg" width="200" />
+          <p style="margin:0">How the arduino looks like</p>
+        </div>
+        <div class="imgdesc">
+          <img src="schematic.jpg" width="200" />
+          <p style="margin:0">How the schematic looks like</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
