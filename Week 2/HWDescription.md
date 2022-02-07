@@ -19,6 +19,7 @@ I decided to add the ability to see whether the written number is right or not b
 
 
 Since user can write inside the block, it should be possible to erase the insides too. Therefore, I have added the 'erase' button, so it will be possible to erase if you wrote the number yourself.
+
 ![image](https://user-images.githubusercontent.com/71120362/152789375-a426d71a-f5b4-44d2-a2e2-86f7d607063a.png)
 
 When the game ends, I added an animation that just covers the screen from center till it fills the whole board two times and changes the board color. After the win, it is not possible to erase and write inside the class.
