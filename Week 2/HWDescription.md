@@ -24,5 +24,6 @@ Since user can write inside the block, it should be possible to erase the inside
 
 When the game ends, I added an animation that just covers the screen from center till it fills the whole board two times and changes the board color. After the win, it is not possible to erase and write inside the class.
 
+<video src="Sudoku Game - Google Chrome 2022-02-07 16-49-09.mp4" width = "200px">
 
 I had fun trying to recreate the game that I love playin and even though for now you can play only one sudoku, I believe that using the databases, I would be able to add more levels, more boards and make the website more interactive. For now, I recreated the game mechanics and logic.
