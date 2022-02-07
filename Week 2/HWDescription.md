@@ -1,6 +1,6 @@
 # Sudoku
 
-
+You can see the website <a href = "https://angry-kilby-f8953c.netlify.app/"> here. </a>
 For this assignment, I decided to implement the Sudoku game into javascript suing only pure javascript without the use of the canvas. I have worked on this project before, however, I only had the interface of the game, no functionality added.
 
 ![image](https://user-images.githubusercontent.com/71120362/152789762-3be5375d-3c09-4f5f-95df-f83c49397a85.png)
