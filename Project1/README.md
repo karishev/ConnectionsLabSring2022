@@ -7,6 +7,7 @@ This mobile wep game is a mix of two games: Wordle and Hangman. The main objecti
 Inspiration: https://www.nytimes.com/games/wordle/index.html 
 
 Random words API: https://rapidapi.com/sheharyar566/api/random-words5/
+
 Dictionary API: https://dictionaryapi.dev/
 
 
