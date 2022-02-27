@@ -138,6 +138,14 @@ Inspiration: https://www.nytimes.com/games/wordle/index.html
  <!--    ![image](https://user-images.githubusercontent.com/71120362/155863984-bae6b48a-d790-4c04-b855-136e1385aba8.png) -->
 
 
+## Key Takeaways and What I have Learnded
+
+   This project took a lot of time to implement! I have never used fetch in porjects before and learning it now is surely a milestone for me. I believe that API has many possibilities for impplementation in future projects. The async and await parts were also interesting to leran about.
+   
+   I have never used p5.js library before, but I had a lot of experience with Processing in previous IM classes. Those two are pretty similar, especially the geometry and functions. It was helpful to not learn form teh beginning, because implementing this project without p5.js would be pretty hard, especially jumping between Wordle and Hangman.
+   
+   One of the things I learned during coding is that it is better to have a plan beforehand, so I don't have to connect two games created not together. In addition, the code was messy, but everything was necessary, so the 700 lines of code are good enough. Maybe there is a place for optimization, but since everythign is working right now and, thanks to the comments, everybody can understand what each part is doing, the debugging should not be a problem.
+
 ## Next Steps
 
  - Saving the state of the website on reload
