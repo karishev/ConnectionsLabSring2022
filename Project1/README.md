@@ -72,6 +72,12 @@ Dictionary API: https://dictionaryapi.dev/
    *Add the functions to all of the keys in the keyboard and call the method only when teh keyboard is already created*
 
    ![image](https://user-images.githubusercontent.com/71120362/155863688-c2c27397-9856-4534-927f-984877a41107.png)
+   
+ - How to use async/await?
+
+   *This part by far wa the hardest, since it was my first time using APIs in projects and I didn't know how to use fetch. But Internet is a wonderful place, especially StackOverflow helped me to understand the the correct use of the asyns/await and how to implement them in functions.
+
+   ![image](https://user-images.githubusercontent.com/71120362/155863984-bae6b48a-d790-4c04-b855-136e1385aba8.png)
 
 
 
