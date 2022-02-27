@@ -56,8 +56,24 @@ Dictionary API: https://dictionaryapi.dev/
    
    *Creating a loading variable that changes only when everything is fetched and we have all information needed*
    
-   
-   ![image](https://user-images.githubusercontent.com/71120362/155863595-fc9049d2-8d2a-427b-ac79-2b25076c6048.png)
+   ```
+   function setup() {
+     // we allow to draw everything only after we fetch the info
+     getwords().then((data) => {
+       dataset = data;
+       loading = false;
+       game = new Game(dataset, numOfLettters, 0, true);
+       var myCanvas = createCanvas(wid, hei);
+       myCanvas.parent("game");
+     });
+   }
+
+   function draw() {
+     background(255);
+     if (!loading) game.display();
+   }
+   ```
+<!-- ![image](https://user-images.githubusercontent.com/71120362/155863595-fc9049d2-8d2a-427b-ac79-2b25076c6048.png) -->
 
  - How to add two separately created games(Wordle and Hangman) together and keep the logic of both games?
 
