@@ -15,39 +15,39 @@ Dictionary API: https://dictionaryapi.dev/
 
  - Instructions menu on page load and clicking the top right icon
 
-   ![image](https://user-images.githubusercontent.com/71120362/155863730-85b00443-65f8-4b10-a066-403acbdabcf5.png)
+   ![image](https://user-images.githubusercontent.com/71120362/155863730-85b00443-65f8-4b10-a066-403acbdabcf5.png =250x)
 
  - Worlde part
 
-   ![image](https://user-images.githubusercontent.com/71120362/155863734-9d1d2a0e-c92b-4cbc-9084-7fe13567e586.png)
+   ![image](https://user-images.githubusercontent.com/71120362/155863734-9d1d2a0e-c92b-4cbc-9084-7fe13567e586.png =250x)
 
  - Hangman part
 
-   ![image](https://user-images.githubusercontent.com/71120362/155863739-a773e4bb-dfb9-4eb5-8a7f-142c7eb27fec.png)
+   ![image](https://user-images.githubusercontent.com/71120362/155863739-a773e4bb-dfb9-4eb5-8a7f-142c7eb27fec.png =250x)
 
  - The word doesn't exist pop up screen
  
-   ![image](https://user-images.githubusercontent.com/71120362/155863743-59156609-f17f-464a-b731-9123a36004d6.png)
+   ![image](https://user-images.githubusercontent.com/71120362/155863743-59156609-f17f-464a-b731-9123a36004d6.png =250x)
 
  - Coloring the letters on keyboard and in words in Wordle
 
-   ![image](https://user-images.githubusercontent.com/71120362/155863760-96af5902-dc40-4b2d-88c6-b725c62262a6.png)
+   ![image](https://user-images.githubusercontent.com/71120362/155863760-96af5902-dc40-4b2d-88c6-b725c62262a6.png =250x)
 
  - Lose of heart in Hangman
  
-   ![image](https://user-images.githubusercontent.com/71120362/155863767-f4251143-0546-44fc-aa3e-c8e044f8e52f.png)
+   ![image](https://user-images.githubusercontent.com/71120362/155863767-f4251143-0546-44fc-aa3e-c8e044f8e52f.png =250x)
 
  - Correctly guessed word
 
-   ![image](https://user-images.githubusercontent.com/71120362/155863788-7c254afc-2b83-4477-bff0-9ac960652e10.png)
+   ![image](https://user-images.githubusercontent.com/71120362/155863788-7c254afc-2b83-4477-bff0-9ac960652e10.png =250x)
 
  - No more attempts/Lose screen
  
-   ![image](https://user-images.githubusercontent.com/71120362/155863809-9a5e78a6-7dc3-484b-84ce-3f884aa84896.png)
+   ![image](https://user-images.githubusercontent.com/71120362/155863809-9a5e78a6-7dc3-484b-84ce-3f884aa84896.png =250x)
 
  - Scoreboard
 
-   ![image](https://user-images.githubusercontent.com/71120362/155863816-cc747c96-3db5-4e48-bffd-2a2762d97698.png)
+   ![image](https://user-images.githubusercontent.com/71120362/155863816-cc747c96-3db5-4e48-bffd-2a2762d97698.png =250x)
 
 
 ## Key challenges
