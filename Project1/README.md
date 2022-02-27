@@ -122,25 +122,24 @@ Dictionary API: https://dictionaryapi.dev/
 
    *This part by far wa the hardest, since it was my first time using APIs in projects and I didn't know how to use fetch. But Internet is a wonderful place, especially StackOverflow helped me to understand the the correct use of the asyns/await and how to implement them in functions.*
 
-<!--    ![image](https://user-images.githubusercontent.com/71120362/155863984-bae6b48a-d790-4c04-b855-136e1385aba8.png) -->
+    ```
+    async function getwords() {
+      const response = await fetch(
+        "https://random-words5.p.rapidapi.com/getMultipleRandom?count=19&wordLength=5",
+        {
+          method: "GET",
+          headers: {
+            "x-rapidapi-host": "random-words5.p.rapidapi.com",
+            "x-rapidapi-key": "8c77c25eb1msh4f11a270f840a84p123b1ejsnc07b53f3a8ff",
+          },
+        }
+      );
+      const data = await response.json();
+      return data;
+    }
+    ```
 
-   ```
-   async function getwords() {
-     const response = await fetch(
-       "https://random-words5.p.rapidapi.com/getMultipleRandom?count=19&wordLength=5",
-       {
-         method: "GET",
-         headers: {
-           "x-rapidapi-host": "random-words5.p.rapidapi.com",
-           "x-rapidapi-key": "8c77c25eb1msh4f11a270f840a84p123b1ejsnc07b53f3a8ff",
-         },
-       }
-     );
-     const data = await response.json();
-     return data;
-   }
-   ```
-
+ <!--    ![image](https://user-images.githubusercontent.com/71120362/155863984-bae6b48a-d790-4c04-b855-136e1385aba8.png) -->
 
 
 ## Next Steps
