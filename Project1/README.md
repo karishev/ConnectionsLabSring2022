@@ -6,10 +6,6 @@ This mobile wep game is a mix of two games: Wordle and Hangman. The main objecti
 
 Inspiration: https://www.nytimes.com/games/wordle/index.html 
 
-Random words API: https://rapidapi.com/sheharyar566/api/random-words5/
-
-Dictionary API: https://dictionaryapi.dev/
-
 
 ## User Interaction 
 
@@ -153,3 +149,13 @@ Dictionary API: https://dictionaryapi.dev/
    <img src = "https://user-images.githubusercontent.com/71120362/155864298-8a7695fc-f364-403d-8294-900c1336467d.png"> 
 
    *For now, one of the possibilities could be just doing everything on one screen. So, rather than changing the screens, you change the row. In the row you write a word or a letter. The user will still have two interfaces, however, now everything will happen in "one" game Wordman.*
+   
+## Resources/References
+
+ - https://editor.p5js.org/Mithru/sketches/Hk1N1mMQg - for the heart shapes in Hangman part
+ - https://p5js.org/reference/#/p5/textAlign - for text alignment in p5
+ - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function - for the asyns/await reference
+ - https://rapidapi.com/sheharyar566/api/random-words5/ - Random words API
+ - https://dictionaryapi.dev/ - Dictionary API
+ 
+
