@@ -25,6 +25,5 @@ Inspiration: https://www.nytimes.com/games/wordle/index.html
 
 ## Next Steps
 
-### Saving the state of the website on reload
-
-### Saving the scoreboard for each user using cookies
+ - Saving the state of the website on reload
+ - Saving the scoreboard for each user using cookies
