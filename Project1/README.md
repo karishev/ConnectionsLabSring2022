@@ -25,6 +25,16 @@ Dictionary API: https://dictionaryapi.dev/
 
  - Lose of heart in Hangman
  
+ 
+## Key challenges
+
+ - How to wait for the fetching to end before displaying the game screen
+   
+   *Creating a loading variable that changes only when everything is fetched and we have all information needed*
+   
+   
+ ![image](https://user-images.githubusercontent.com/71120362/155863595-fc9049d2-8d2a-427b-ac79-2b25076c6048.png)
+
 
 
 ## Next Steps
