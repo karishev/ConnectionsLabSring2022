@@ -15,7 +15,7 @@ Dictionary API: https://dictionaryapi.dev/
 
  - Instructions menu on page load and clicking the top right icon
 
-   ![image](https://user-images.githubusercontent.com/71120362/155863730-85b00443-65f8-4b10-a066-403acbdabcf5.png =250x)
+   <img src="(https://user-images.githubusercontent.com/71120362/155863730-85b00443-65f8-4b10-a066-403acbdabcf5.png" width="200" height="200" />
 
  - Worlde part
 
