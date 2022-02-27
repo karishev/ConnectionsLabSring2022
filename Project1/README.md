@@ -27,27 +27,27 @@ Dictionary API: https://dictionaryapi.dev/
 
  - The word doesn't exist pop up screen
  
-   ![image](https://user-images.githubusercontent.com/71120362/155863743-59156609-f17f-464a-b731-9123a36004d6.png =250x)
+   <img src = "https://user-images.githubusercontent.com/71120362/155863743-59156609-f17f-464a-b731-9123a36004d6.png" width="400">
 
  - Coloring the letters on keyboard and in words in Wordle
 
-   ![image](https://user-images.githubusercontent.com/71120362/155863760-96af5902-dc40-4b2d-88c6-b725c62262a6.png =250x)
-
+   <img src = "https://user-images.githubusercontent.com/71120362/155863760-96af5902-dc40-4b2d-88c6-b725c62262a6.png" width="400">
+   
  - Lose of heart in Hangman
  
-   ![image](https://user-images.githubusercontent.com/71120362/155863767-f4251143-0546-44fc-aa3e-c8e044f8e52f.png =250x)
+   <img src = "https://user-images.githubusercontent.com/71120362/155863767-f4251143-0546-44fc-aa3e-c8e044f8e52f.png" width="400">
 
  - Correctly guessed word
 
-   ![image](https://user-images.githubusercontent.com/71120362/155863788-7c254afc-2b83-4477-bff0-9ac960652e10.png =250x)
+   <img src = "https://user-images.githubusercontent.com/71120362/155863788-7c254afc-2b83-4477-bff0-9ac960652e10.png" width="400">
 
  - No more attempts/Lose screen
  
-   ![image](https://user-images.githubusercontent.com/71120362/155863809-9a5e78a6-7dc3-484b-84ce-3f884aa84896.png =250x)
+   <img src = "https://user-images.githubusercontent.com/71120362/155863809-9a5e78a6-7dc3-484b-84ce-3f884aa84896.png" width="400">
 
  - Scoreboard
 
-   ![image](https://user-images.githubusercontent.com/71120362/155863816-cc747c96-3db5-4e48-bffd-2a2762d97698.png =250x)
+   <img src = "https://user-images.githubusercontent.com/71120362/155863816-cc747c96-3db5-4e48-bffd-2a2762d97698.png" width="400">
 
 
 ## Key challenges
