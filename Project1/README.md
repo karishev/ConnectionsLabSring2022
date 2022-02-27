@@ -147,3 +147,8 @@ Dictionary API: https://dictionaryapi.dev/
  - Saving the state of the website on reload
  - Saving the scoreboard for each user using cookies
  - Making the games more united, looking like one game, rather than two different (?)
+   *This part is one of the hardest to implement. I believe that in my head and right now everything is looking good and understandable. Maybe it is because this project is created by me and I know the functionalities. However, some people told me that it is hard to differentiate between the two games. Maybe beause of the names at the top that celarly state "Wordle" and  "Hangman" which makes it hard to understand whether the user changes the games completely or just the states.*
+   
+   <img src = "https://user-images.githubusercontent.com/71120362/155864298-8a7695fc-f364-403d-8294-900c1336467d.png"> 
+
+   *For now, one of the possibilities could be just doing everything on one screen. So, rather than changing the screens, you change the row. In the row you write a word or a letter. The user will still have two interfaces, however, now everything will happen in "one" game Wordman.*
