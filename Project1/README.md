@@ -75,7 +75,7 @@ Dictionary API: https://dictionaryapi.dev/
    
  - How to use async/await?
 
-   *This part by far wa the hardest, since it was my first time using APIs in projects and I didn't know how to use fetch. But Internet is a wonderful place, especially StackOverflow helped me to understand the the correct use of the asyns/await and how to implement them in functions.
+   *This part by far wa the hardest, since it was my first time using APIs in projects and I didn't know how to use fetch. But Internet is a wonderful place, especially StackOverflow helped me to understand the the correct use of the asyns/await and how to implement them in functions.*
 
    ![image](https://user-images.githubusercontent.com/71120362/155863984-bae6b48a-d790-4c04-b855-136e1385aba8.png)
 
@@ -85,3 +85,4 @@ Dictionary API: https://dictionaryapi.dev/
 
  - Saving the state of the website on reload
  - Saving the scoreboard for each user using cookies
+ - Making the games more united, looking like one game, rather than two different (?)
