@@ -39,7 +39,7 @@ Dictionary API: https://dictionaryapi.dev/
 
    ![image](https://user-images.githubusercontent.com/71120362/155863654-dcbbca1b-303d-4d81-9e6d-dd0329df845c.png)
 
-   *Create a new class called Game where all the functions combine the two games
+   *Create a new class called Game where all the functions combine the two games*
    
    ![image](https://user-images.githubusercontent.com/71120362/155863662-519910fc-1c5d-4b47-87e9-782982884466.png)
 
