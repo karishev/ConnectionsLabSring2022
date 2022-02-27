@@ -81,19 +81,65 @@ Dictionary API: https://dictionaryapi.dev/
 
    *Create a new class called Game where all the functions combine the two games*
    
-   ![image](https://user-images.githubusercontent.com/71120362/155863662-519910fc-1c5d-4b47-87e9-782982884466.png)
+   ```
+   class Game {
+    constructor(dataset, amount, wordnow, instructions) {
+      this.dataset = dataset;
+      this.wordnow = wordnow;
+      this.amount = amount;
+      this.wordle = new Wordle(this.dataset[this.wordnow].toUpperCase(), amount);
+      this.hangman = new Hangman(
+        this.dataset[this.wordnow].toUpperCase(),
+        amount
+      );
+      // to display a game first
+      this.whichgame = "wordle";
+      this.letters = this.creatingSlots();
+      this.instructions = instructions;
+      this.won = false;
+    }
+   ```
+<!--    ![image](https://user-images.githubusercontent.com/71120362/155863662-519910fc-1c5d-4b47-87e9-782982884466.png) -->
 
  - How to add the key interactions for the virtual keyboard?
 
    *Add the functions to all of the keys in the keyboard and call the method only when teh keyboard is already created*
 
-   ![image](https://user-images.githubusercontent.com/71120362/155863688-c2c27397-9856-4534-927f-984877a41107.png)
+   ```
+   function keyClicked() {
+     let keys = document.querySelectorAll(".key");
+     keys.forEach((key) => {
+       key.addEventListener("click", () => {
+       //all the work and functions that we need to implement go here
+       }
+     }
+   }
+   ```
+
+<!--    ![image](https://user-images.githubusercontent.com/71120362/155863688-c2c27397-9856-4534-927f-984877a41107.png) -->
    
  - How to use async/await?
 
    *This part by far wa the hardest, since it was my first time using APIs in projects and I didn't know how to use fetch. But Internet is a wonderful place, especially StackOverflow helped me to understand the the correct use of the asyns/await and how to implement them in functions.*
 
-   ![image](https://user-images.githubusercontent.com/71120362/155863984-bae6b48a-d790-4c04-b855-136e1385aba8.png)
+<!--    ![image](https://user-images.githubusercontent.com/71120362/155863984-bae6b48a-d790-4c04-b855-136e1385aba8.png) -->
+
+  ```
+  async function getwords() {
+    const response = await fetch(
+      "https://random-words5.p.rapidapi.com/getMultipleRandom?count=19&wordLength=5",
+      {
+        method: "GET",
+        headers: {
+          "x-rapidapi-host": "random-words5.p.rapidapi.com",
+          "x-rapidapi-key": "8c77c25eb1msh4f11a270f840a84p123b1ejsnc07b53f3a8ff",
+        },
+      }
+    );
+    const data = await response.json();
+    return data;
+  }
+  ```
 
 
 
