@@ -15,15 +15,15 @@ Dictionary API: https://dictionaryapi.dev/
 
  - Instructions menu on page load and clicking the top right icon
 
-   <img src="https://user-images.githubusercontent.com/71120362/155863730-85b00443-65f8-4b10-a066-403acbdabcf5.png" width="200" height="200" />
+   <img src="https://user-images.githubusercontent.com/71120362/155863730-85b00443-65f8-4b10-a066-403acbdabcf5.png" width="400" />
 
  - Worlde part
 
-   ![image](https://user-images.githubusercontent.com/71120362/155863734-9d1d2a0e-c92b-4cbc-9084-7fe13567e586.png =250x)
+   <img src = "https://user-images.githubusercontent.com/71120362/155863734-9d1d2a0e-c92b-4cbc-9084-7fe13567e586.png" width="400">
 
  - Hangman part
 
-   ![image](https://user-images.githubusercontent.com/71120362/155863739-a773e4bb-dfb9-4eb5-8a7f-142c7eb27fec.png =250x)
+   <img src = "https://user-images.githubusercontent.com/71120362/155863739-a773e4bb-dfb9-4eb5-8a7f-142c7eb27fec.png" width="400">
 
  - The word doesn't exist pop up screen
  
