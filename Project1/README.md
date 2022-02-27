@@ -33,7 +33,15 @@ Dictionary API: https://dictionaryapi.dev/
    *Creating a loading variable that changes only when everything is fetched and we have all information needed*
    
    
- ![image](https://user-images.githubusercontent.com/71120362/155863595-fc9049d2-8d2a-427b-ac79-2b25076c6048.png)
+   ![image](https://user-images.githubusercontent.com/71120362/155863595-fc9049d2-8d2a-427b-ac79-2b25076c6048.png)
+
+ - How to add two separately created games(Wordle and Hangman) together and keep the logic of both games?
+
+   ![image](https://user-images.githubusercontent.com/71120362/155863654-dcbbca1b-303d-4d81-9e6d-dd0329df845c.png)
+
+   *Create a new class called Game where all the functions combine the two games
+   
+   ![image](https://user-images.githubusercontent.com/71120362/155863662-519910fc-1c5d-4b47-87e9-782982884466.png)
 
 
 
