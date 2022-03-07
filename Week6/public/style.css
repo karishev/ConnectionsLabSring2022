@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+html {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+body {
+  /* font-family: "Permanent Marker", cursive; */
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+  overflow-x: hidden;
+  background: rgb(23, 23, 23);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  font-size: 45px;
+  position: relative;
+  width: 100%;
+  border: 1px solid black;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px 0;
+}
+
+/* titans styling */
+.titans{
+    padding-top: 20px;
+}
+.titans__titan {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  justify-content: space-between;
+  padding: 15px 0;
+  color: white;
+}
+
+.titans__titan-img {
+  height: 300px;
+  width: 200px;
+  position: relative;
+}
+
+.titans__titan-img > img {
+  width: 200px;
+  position: absolute;
+}
+
+.titans__titan-img > p {
+  height: 280px;
+  margin: 0;
+  position: absolute;
+  display: none;
+  left: 15px;
+  font-size: 20px;
+  width: 200px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
