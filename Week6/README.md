@@ -23,3 +23,5 @@ document.addEventListener("click", (e) => {
   })
   
 ```
+
+Overall, using Node.js for creating my own self made APIs was really interesting, even though time consuming in some parts, especially for information gathering.
