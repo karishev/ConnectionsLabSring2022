@@ -20,18 +20,21 @@ const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
+//adding light
 const color = 0xffffff;
 const intensity = 1;
 const light = new THREE.DirectionalLight(color, intensity);
 light.position.set(-1, 2, 4);
 scene.add(light);
 
+//creating donut shaped object
 const geometry1 = new THREE.TorusGeometry(1,.5,55,100);
 const material1 = new THREE.MeshPhongMaterial({color: 123413});
 const toruse = new THREE.Mesh(geometry1,material1);
 toruse.position.x = 5;
 scene.add(toruse);
 
+//creating cube
 const geometry = new THREE.BoxGeometry(2, 2, 2);
 const material = new THREE.MeshPhongMaterial({ color: 330662 });
 const cube = new THREE.Mesh(geometry, material);
@@ -39,6 +42,7 @@ scene.add(cube);
 
 camera.position.z = 5;
 
+//animating the objects
 function animate() {
   requestAnimationFrame(animate);
 
@@ -54,6 +58,7 @@ function animate() {
 
 animate();
 
+//moving to the position of the mouse
 document.onmousemove = function (e) {
   var centerX = window.innerWidth * 0.5;
   var centerY = window.innerHeight * 0.5;
@@ -62,6 +67,8 @@ document.onmousemove = function (e) {
   camera.position.y = (e.clientY - centerY) * 0.01;
 };
 
+
+//making resizable
 window.addEventListener("resize", () => {
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.position.z = getCameraPositionZ();
